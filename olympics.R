@@ -41,7 +41,7 @@ cycling_road <- cycling_road |>
   select(event_name, gender, participant_name, gender, participant_country_code, rank, result, result_type, result_diff) |>
   filter(gender == "M")
 
-#FIX THIS BELOW COMMENTED LINES!!!
+#FIX THIS BELOW COMMENTED LINES!!
 # want to get mean result diff by country for road race 
 cycling_road <- cycling_road |>
   select(participant_country_code, result_diff) |>
